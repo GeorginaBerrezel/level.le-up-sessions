@@ -57,15 +57,15 @@
               <li class="group pl-6">
 
                 <span @click="triggerNavItem('#about')"
-                  class="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white">About</span>
+                  class="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white">About us</span>
 
                 <span class="block h-0.5 w-full bg-transparent group-hover:bg-yellow"></span>
               </li>
 
               <li class="group pl-6">
 
-                <span @click="triggerNavItem('#services')"
-                  class="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white">Services</span>
+                <span @click="triggerNavItem('#prices')"
+                  class="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white">Prices</span>
 
                 <span class="block h-0.5 w-full bg-transparent group-hover:bg-yellow"></span>
               </li>
@@ -140,14 +140,14 @@
             <li class="py-2">
 
               <span @click="triggerMobileNavItem('#about')"
-                class="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white">About</span>
+                class="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white">About us</span>
 
             </li>
 
             <li class="py-2">
 
-              <span @click="triggerMobileNavItem('#services')"
-                class="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white">Services</span>
+              <span @click="triggerMobileNavItem('#prices')"
+                class="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white">Prices</span>
 
             </li>
 
@@ -275,6 +275,30 @@
                 Cette session a lieu tous les dimanches soirs de 19h à 21h sous condition d’une adhésion* (voir nos
                 tarifs). Le jeudi, les adhérent.es peuvent venir gratuitement.
               </p>
+              <h4 class="pt-6 font-header text-xl font-medium text-black sm:text-2xl lg:text-3xl">
+                Genèse </h4>
+              <p class="pt-6 font-body leading-relaxed text-grey-20">
+                Nous avons constaté qu’à Darwin, le skatepark du Hangar, qui est un espace privé est majoritairement
+                occupé par les garçons et les hommes, de la même manière que l’occupation de l’espace public, les
+                équipements de sports en libre accès (skate park, city stade…) laissent peu de place aux filles et aux
+                femmes. Celles-ci peuvent ne pas oser prendre l’espace et se restreignent ainsi sur une pratique
+                sportive qui pourrait leur faire envie.
+              </p>
+              <h4 class="pt-6 font-header text-xl font-medium text-black sm:text-2xl lg:text-3xl">
+                La proposition innovante du Hangar Darwin :</h4>
+              <p class="pt-6 font-body leading-relaxed text-grey-20">
+                La Level.le Up est un créneau de session spéciale, créé au Hangar Darwin dans le but de faciliter
+                l’accès pour toutes les personnes qui ne trouvent pas leur place sur les sessions mixtes aux disciplines
+                que l’on retrouve sur les skateparks (skate, roller, BMX, trott). Une session indoor leur est donc
+                dédiée pour venir débuter, rouler et progresser.
+              </p>
+              <h4 class="pt-6 font-header text-xl font-medium text-black sm:text-2xl lg:text-3xl">
+                Conditions d’accès:</h4>
+              <p class="pt-6 font-body leading-relaxed text-grey-20">
+                Cette session a lieu tous les dimanches de 19h à 21h. Une adhésion à l’association est obligatoire. (cf.
+                chapitre tarif).<br>
+                La personne qui gère l’accueil et qui est présente lors de cette session le fait de manière bénévole.
+              </p>
               <div class="flex flex-col justify-center pt-6 sm:flex-row lg:justify-start">
                 <div class="flex items-center justify-center sm:justify-start">
                   <p class="font-body text-lg font-semibold uppercase text-grey-20">
@@ -352,69 +376,128 @@
         </div>
 
         <div class="container py-16 md:py-20" id="services">
-          <h2 class="text-center font-header text-4xl font-semibold uppercase text-primary sm:text-5xl lg:text-6xl">
-            Here's what I'm good at
+          <h2 class="text-center font-header text-4xl font-semibold uppercase text-yellow sm:text-5xl lg:text-6xl">
+            T'as ton adhésion !?
           </h2>
           <h3 class="pt-6 text-center font-header text-xl font-medium text-black sm:text-2xl lg:text-3xl">
-            These are the services Ioffer
+            Etre adhérent à la Level·le Up, c'est aussi l'être au Hangar Darwin
           </h3>
 
+          <div class="group rounded px-8 py-12 shadow">
+            <div class="mx-auto h-24 w-24 text-center xl:h-28 xl:w-28">
+              <div class="block">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                  <path
+                    d="M0 96l576 0c0-35.3-28.7-64-64-64H64C28.7 32 0 60.7 0 96zm0 32V416c0 35.3 28.7 64 64 64H512c35.3 0 64-28.7 64-64V128H0zM64 405.3c0-29.5 23.9-53.3 53.3-53.3H234.7c29.5 0 53.3 23.9 53.3 53.3c0 5.9-4.8 10.7-10.7 10.7H74.7c-5.9 0-10.7-4.8-10.7-10.7zM176 192a64 64 0 1 1 0 128 64 64 0 1 1 0-128zm176 16c0-8.8 7.2-16 16-16H496c8.8 0 16 7.2 16 16s-7.2 16-16 16H368c-8.8 0-16-7.2-16-16zm0 64c0-8.8 7.2-16 16-16H496c8.8 0 16 7.2 16 16s-7.2 16-16 16H368c-8.8 0-16-7.2-16-16zm0 64c0-8.8 7.2-16 16-16H496c8.8 0 16 7.2 16 16s-7.2 16-16 16H368c-8.8 0-16-7.2-16-16z" />
+                </svg>
+              </div>
+            </div>
+            <div class="text-center">
+              <h3 class="pt-8 text-lg font-semibold uppercase text-black lg:text-xl">
+                Adhésion <br>5€ /an
+              </h3>
+              <p class="text-grey pt-4 text-grey-30 text-sm md:text-base">
+                Valable 1 an à date d'anniversaire de la carte !
+              </p>
+              <p class="text-grey pt-4 text-sm md:text-base">
+                L’adhésion est obligatoire pour venir rouler au Hangar.
+                Cela permet à l’association de payer l’assurance pour chaque membre.
+              </p>
+            </div>
+          </div>
           <div class="grid grid-cols-1 gap-6 pt-10 sm:grid-cols-2 md:gap-10 md:pt-12 lg:grid-cols-3">
-            <div class="group rounded px-8 py-12 shadow hover:bg-primary">
+            <div class="group rounded px-8 py-12 shadow hover:bg-yellow">
               <div class="mx-auto h-24 w-24 text-center xl:h-28 xl:w-28">
                 <div class="hidden group-hover:block">
-                  <img src="/assets/img/icon-development-white.svg" alt="development icon" />
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                    <path
+                      d="M304 128a80 80 0 1 0 -160 0 80 80 0 1 0 160 0zM96 128a128 128 0 1 1 256 0A128 128 0 1 1 96 128zM49.3 464H398.7c-8.9-63.3-63.3-112-129-112H178.3c-65.7 0-120.1 48.7-129 112zM0 482.3C0 383.8 79.8 304 178.3 304h91.4C368.2 304 448 383.8 448 482.3c0 16.4-13.3 29.7-29.7 29.7H29.7C13.3 512 0 498.7 0 482.3z" />
+                  </svg>
                 </div>
                 <div class="block group-hover:hidden">
-                  <img src="/assets/img/icon-development-black.svg" alt="development icon" />
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                    <path
+                      d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-45.7 48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512H418.3c16.4 0 29.7-13.3 29.7-29.7C448 383.8 368.2 304 269.7 304H178.3z" />
+                  </svg>
                 </div>
               </div>
               <div class="text-center">
-                <h3 class="pt-8 text-lg font-semibold uppercase text-primary group-hover:text-yellow lg:text-xl">
-                  WEB DEVELOPMENT
+                <h3 class="pt-8 text-lg font-semibold uppercase text-yellow group-hover:text-black lg:text-xl">
+                  Carte à la session<br>5€ /session
                 </h3>
-                <p class="text-grey pt-4 text-sm group-hover:text-white md:text-base">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                <p class="text-grey pt-4 text-grey-30 text-sm group-hover:text-grey-10 md:text-base">
+                  Valable une journée
+                </p>
+                <p class="text-grey pt-4 text-sm group-hover:text-black md:text-base">
+                  Si c’est votre première session au Hangar Darwin, nous remplirons avec vous un formulaire d’adhésion
+                  obligatoire comprenant une assurance valable 1 an.
                 </p>
               </div>
             </div>
-            <div class="group rounded px-8 py-12 shadow hover:bg-primary">
+            <div class="group rounded px-8 py-12 shadow hover:bg-blue">
               <div class="mx-auto h-24 w-24 text-center xl:h-28 xl:w-28">
                 <div class="hidden group-hover:block">
-                  <img src="/assets/img/icon-content-white.svg" alt="content marketing icon" />
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                    <path
+                      d="M528 160V416c0 8.8-7.2 16-16 16H320c0-44.2-35.8-80-80-80H176c-44.2 0-80 35.8-80 80H64c-8.8 0-16-7.2-16-16V160H528zM64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H512c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64zM272 256a64 64 0 1 0 -128 0 64 64 0 1 0 128 0zm104-48c-13.3 0-24 10.7-24 24s10.7 24 24 24h80c13.3 0 24-10.7 24-24s-10.7-24-24-24H376zm0 96c-13.3 0-24 10.7-24 24s10.7 24 24 24h80c13.3 0 24-10.7 24-24s-10.7-24-24-24H376z" />
+                  </svg>
                 </div>
                 <div class="block group-hover:hidden">
-                  <img src="/assets/img/icon-content-black.svg" alt="content marketing icon" />
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                    <path
+                      d="M528 160V416c0 8.8-7.2 16-16 16H320c0-44.2-35.8-80-80-80H176c-44.2 0-80 35.8-80 80H64c-8.8 0-16-7.2-16-16V160H528zM64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H512c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64zM272 256a64 64 0 1 0 -128 0 64 64 0 1 0 128 0zm104-48c-13.3 0-24 10.7-24 24s10.7 24 24 24h80c13.3 0 24-10.7 24-24s-10.7-24-24-24H376zm0 96c-13.3 0-24 10.7-24 24s10.7 24 24 24h80c13.3 0 24-10.7 24-24s-10.7-24-24-24H376z" />
+                  </svg>
                 </div>
               </div>
               <div class="text-center">
-                <h3 class="pt-8 text-lg font-semibold uppercase text-primary group-hover:text-yellow lg:text-xl">
-                  Technical Writing
+                <h3 class="pt-8 text-lg font-semibold uppercase text-blue group-hover:text-white lg:text-xl">
+                  Carte illimité<br>60€ /an
                 </h3>
+                <p class="text-grey pt-4 text-grey-30 text-sm group-hover:text-white md:text-base">
+                  Valable 1 an à date d'anniversaire de la carte !
+                </p>
                 <p class="text-grey pt-4 text-sm group-hover:text-white md:text-base">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Ne comprend pas l’adhésion obligatoire à 5€
+                </p>
+                <p class="text-grey pt-4 text-sm group-hover:text-white md:text-base">
+                  Gratuit le jeudi soir pour les filles et minorités de genre
                 </p>
               </div>
             </div>
-            <div class="group rounded px-8 py-12 shadow hover:bg-primary">
+            <div class="group rounded px-8 py-12 shadow hover:bg-blueLight">
               <div class="mx-auto h-24 w-24 text-center xl:h-28 xl:w-28">
                 <div class="hidden group-hover:block">
-                  <img src="/assets/img/icon-mobile-white.svg" alt="Mobile Application icon" />
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                    <path
+                      d="M528 160V416c0 8.8-7.2 16-16 16H320c0-44.2-35.8-80-80-80H176c-44.2 0-80 35.8-80 80H64c-8.8 0-16-7.2-16-16V160H528zM64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H512c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64zM272 256a64 64 0 1 0 -128 0 64 64 0 1 0 128 0zm104-48c-13.3 0-24 10.7-24 24s10.7 24 24 24h80c13.3 0 24-10.7 24-24s-10.7-24-24-24H376zm0 96c-13.3 0-24 10.7-24 24s10.7 24 24 24h80c13.3 0 24-10.7 24-24s-10.7-24-24-24H376z" />
+                  </svg>
                 </div>
                 <div class="block group-hover:hidden">
-                  <img src="/assets/img/icon-mobile-black.svg" alt="Mobile Application icon" />
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                    <path
+                      d="M528 160V416c0 8.8-7.2 16-16 16H320c0-44.2-35.8-80-80-80H176c-44.2 0-80 35.8-80 80H64c-8.8 0-16-7.2-16-16V160H528zM64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H512c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64zM272 256a64 64 0 1 0 -128 0 64 64 0 1 0 128 0zm104-48c-13.3 0-24 10.7-24 24s10.7 24 24 24h80c13.3 0 24-10.7 24-24s-10.7-24-24-24H376zm0 96c-13.3 0-24 10.7-24 24s10.7 24 24 24h80c13.3 0 24-10.7 24-24s-10.7-24-24-24H376z" />
+                  </svg>
                 </div>
               </div>
               <div class="text-center">
-                <h3 class="pt-8 text-lg font-semibold uppercase text-primary group-hover:text-yellow lg:text-xl">
-                  Mobile Development
+                <h3 class="pt-8 text-lg font-semibold uppercase text-blueLight group-hover:text-white lg:text-xl">
+                  Carte illimité <br>tarif réduit<br>40€ /an
                 </h3>
+                <p class="text-grey pt-4 text-grey-30 text-sm group-hover:text-white md:text-base">
+                  Valable 1 an à date d'anniversaire de la carte !
+                </p>
                 <p class="text-grey pt-4 text-sm group-hover:text-white md:text-base">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Ne comprend pas l’adhésion obligatoire à 5€
+                </p>
+                <p class="text-grey pt-4 text-sm text-blueLight group-hover:text-white md:text-base">
+                  Tarif étudiant, carte jeune, demandeur d'emploi, carte du RDBC ou cours avec Sidjé Coaching
+                </p>
+                <p class="text-grey pt-4 text-sm group-hover:text-white md:text-base">
+                  Un justificatif vous sera demandé à l’accueil du skatepark lors de votre première visite.
                 </p>
               </div>
             </div>
-            <div class="group rounded px-8 py-12 shadow hover:bg-primary">
+            <!-- <div class="group rounded px-8 py-12 shadow hover:bg-primary">
               <div class="mx-auto h-24 w-24 text-center xl:h-28 xl:w-28">
                 <div class="hidden group-hover:block">
                   <img src="/assets/img/icon-email-white.svg" alt="Email Marketing icon" />
@@ -431,66 +514,36 @@
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                 </p>
               </div>
-            </div>
-            <div class="group rounded px-8 py-12 shadow hover:bg-primary">
-              <div class="mx-auto h-24 w-24 text-center xl:h-28 xl:w-28">
-                <div class="hidden group-hover:block">
-                  <img src="/assets/img/icon-design-white.svg" alt="Theme Design icon" />
-                </div>
-                <div class="block group-hover:hidden">
-                  <img src="/assets/img/icon-design-black.svg" alt="Theme Design icon" />
-                </div>
-              </div>
-              <div class="text-center">
-                <h3 class="pt-8 text-lg font-semibold uppercase text-primary group-hover:text-yellow lg:text-xl">
-                  Graphic Design
-                </h3>
-                <p class="text-grey pt-4 text-sm group-hover:text-white md:text-base">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                </p>
-              </div>
-            </div>
-            <div class="group rounded px-8 py-12 shadow hover:bg-primary">
-              <div class="mx-auto h-24 w-24 text-center xl:h-28 xl:w-28">
-                <div class="hidden group-hover:block">
-                  <img src="/assets/img/icon-graphics-white.svg" alt="Graphic Design icon" />
-                </div>
-                <div class="block group-hover:hidden">
-                  <img src="/assets/img/icon-graphics-black.svg" alt="Graphic Design icon" />
-                </div>
-              </div>
-              <div class="text-center">
-                <h3 class="pt-8 text-lg font-semibold uppercase text-primary group-hover:text-yellow lg:text-xl">
-                  Web Design
-                </h3>
-                <p class="text-grey pt-4 text-sm group-hover:text-white md:text-base">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                </p>
-              </div>
-            </div>
+            </div> -->
           </div>
         </div>
 
         <div class="container py-16 md:py-20" id="portfolio">
-          <h2 class="text-center font-header text-4xl font-semibold uppercase text-primary sm:text-5xl lg:text-6xl">
-            Check out my Portfolio
+          <h2 class="text-center font-header text-4xl font-semibold uppercase text-orange sm:text-5xl lg:text-6xl">
+            Un p'tit retour en image !?
           </h2>
           <h3 class="pt-6 text-center font-header text-xl font-medium text-black sm:text-2xl lg:text-3xl">
-            Here's what I have done with the past
+            Une session riche en diversitées
           </h3>
 
           <div class="mx-auto grid w-full grid-cols-1 gap-8 pt-12 sm:w-3/4 md:gap-10 lg:w-full lg:grid-cols-2">
-            <a href="/" class="mx-auto transform transition-all hover:scale-105 md:mx-0">
-              <img src="/assets/img/portfolio-apple.jpeg" class="w-full shadow" alt="portfolio image" />
+            <a href="/" class="mx-auto transform transition-all hover:scale-105 md:mx-0 ">
+              <img src="/assets/img/team-quad.jpg" class="shadow block object-contain h16 w-fit" alt="portfolio image" />
             </a>
             <a href="/" class="mx-auto transform transition-all hover:scale-105 md:mx-0">
-              <img src="/assets/img/portfolio-stripe.jpeg" class="w-full shadow" alt="portfolio image" />
+              <img src="/assets/img/skate-rampe.jpg" class="shadow object-contain h16 w-fit" alt="portfolio image" />
             </a>
             <a href="/" class="mx-auto transform transition-all hover:scale-105 md:mx-0">
-              <img src="/assets/img/portfolio-fedex.jpeg" class="w-full shadow" alt="portfolio image" />
+              <img src="/assets/img/joolz-slide-quad.jpg" class="shadow object-contain h16 w-fit" alt="portfolio image" />
             </a>
             <a href="/" class="mx-auto transform transition-all hover:scale-105 md:mx-0">
-              <img src="/assets/img/portfolio-microsoft.jpeg" class="w-full shadow" alt="portfolio image" />
+              <img src="/assets/img/background-hero-skate.jpg" class="object-contain h16 w-fit shadow" alt="portfolio image" />
+            </a>
+            <a href="/" class="mx-auto transform transition-all hover:scale-105 md:mx-0">
+              <img src="/assets/img/background-hero-skateandroller-rampe.jpg" class="object-cover h48 w-fit shadow" alt="portfolio image" />
+            </a>
+            <a href="/" class="mx-auto transform transition-all hover:scale-105 md:mx-0">
+              <img src="/assets/img/kids-curb.jpg" class="object-contain h16 w-fit shadow" alt="portfolio image" />
             </a>
           </div>
         </div>
@@ -498,39 +551,31 @@
         <div class="bg-grey-50" id="clients">
           <div class="container py-16 md:py-20">
             <div class="mx-auto w-full sm:w-3/4 lg:w-full">
-              <h2 class="text-center font-header text-4xl font-semibold uppercase text-primary sm:text-5xl lg:text-6xl">
-                My latest clients
+              <h2 class="text-center font-header text-4xl font-semibold uppercase text-orange sm:text-5xl lg:text-6xl">
+                La team qui nous soutiens
               </h2>
               <div class="flex flex-wrap items-center justify-center pt-4 sm:pt-4">
                 <span class="m-8 block">
-                  <img src="/assets/img/logo-coca-cola.svg" alt="client logo" class="mx-auto block h-12 w-auto" />
+                  <img src="/assets/img/logo-hangar-darwin-noir.png" alt="client logo" class="mx-auto block h-12 w-auto" />
                 </span>
                 <span class="m-8 block">
-                  <img src="/assets/img/logo-apple.svg" alt="client logo" class="mx-auto block h-12 w-auto" />
+                  <img src="/assets/img/burdy_logo.png" alt="client logo" class="mx-auto block h-12 w-auto" />
                 </span>
 
-                <span class="m-8 block">
+                <!-- <span class="m-8 block">
                   <img src="/assets/img/logo-netflix.svg" alt="client logo" class="mx-auto block h-12 w-auto" />
-                </span>
-
-                <span class="m-8 block">
-                  <img src="/assets/img/logo-amazon.svg" alt="client logo" class="mx-auto block h-12 w-auto" />
-                </span>
-
-                <span class="m-8 block">
-                  <img src="/assets/img/logo-stripe.svg" alt="client logo" class="mx-auto block h-12 w-auto" />
-                </span>
+                </span> -->
               </div>
             </div>
           </div>
         </div>
 
         <div class="container py-16 md:py-20" id="work">
-          <h2 class="text-center font-header text-4xl font-semibold uppercase text-primary sm:text-5xl lg:text-6xl">
-            My work experience
+          <h2 class="text-center font-header text-4xl font-semibold uppercase text-orange sm:text-5xl lg:text-6xl">
+            Règles spécifiques à la Level·le Up
           </h2>
           <h3 class="pt-6 text-center font-header text-xl font-medium text-black sm:text-2xl lg:text-3xl">
-            Here's what I did before freelancing
+            Celles de base du Hangar Darwin restent les mêmes
           </h3>
 
           <div class="relative mx-auto mt-12 flex w-full flex-col lg:w-2/3">
@@ -540,7 +585,7 @@
               <div class="md:w-2/5">
                 <div class="flex justify-center md:justify-start">
                   <span class="shrink-0">
-                    <img src="/assets/img/logo-spotify.svg" class="h-auto w-32" alt="company logo" />
+                    <img src="/assets/img/hand-holding-heart-solid.svg" class="h-auto w-19" alt="company logo" />
                   </span>
                   <div class="relative ml-3 hidden w-full md:block">
                     <span class="absolute inset-x-0 top-1/2 h-0.5 -translate-y-1/2 transform bg-grey-70"></span>
@@ -553,16 +598,15 @@
                     class="absolute left-8 top-1 hidden h-4 w-4 rounded-full border-2 border-grey-40 bg-white md:block"></span>
 
                   <div class="mt-1 flex">
-                    <i class="bx bxs-right-arrow hidden text-primary md:block"></i>
+                    <i class="bx bxs-right-arrow hidden text-orange md:block"></i>
                     <div class="md:-mt-1 md:pl-8">
-                      <span class="block font-body font-bold text-grey-40">Apr 2015 - Mar 2018</span>
-                      <span class="block pt-2 font-header text-xl font-bold uppercase text-primary">Frontend
-                        Developer</span>
+                      <span class="block font-body font-bold text-grey-40">Depuis août 2021</span>
+                      <span class="block pt-2 font-header text-xl font-bold uppercase text-orange">Créneau bienveillant
+                        et inclusif</span>
                       <div class="pt-2">
-                        <span class="block font-body text-black">Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit.
-                          Vestibulum mattis felis vitae risus pulvinar tincidunt. Nam ac
-                          venenatis enim.</span>
+                        <span class="block font-body text-black">Cette session permet de pratiquer dans des conditions
+                          privilégiées lors d’un créneau bienveillant et inclusif, pour les filles et les femmes,
+                          notamment cis et trans, ainsi que les personnes non-binaires.</span>
                       </div>
                     </div>
                   </div>
@@ -573,7 +617,7 @@
               <div class="md:w-2/5">
                 <div class="flex justify-center md:justify-start">
                   <span class="shrink-0">
-                    <img src="/assets/img/logo-microsoft.svg" class="h-auto w-32" alt="company logo" />
+                    <img src="/assets/img/eye-slash-solid.svg" class="h-auto w-19" alt="company logo" />
                   </span>
                   <div class="relative ml-3 hidden w-full md:block">
                     <span class="absolute inset-x-0 top-1/2 h-0.5 -translate-y-1/2 transform bg-grey-70"></span>
@@ -586,16 +630,14 @@
                     class="absolute left-8 top-1 hidden h-4 w-4 rounded-full border-2 border-grey-40 bg-white md:block"></span>
 
                   <div class="mt-1 flex">
-                    <i class="bx bxs-right-arrow hidden text-primary md:block"></i>
+                    <i class="bx bxs-right-arrow hidden text-orange md:block"></i>
                     <div class="md:-mt-1 md:pl-8">
-                      <span class="block font-body font-bold text-grey-40">Mar 2018 - September 2019</span>
-                      <span class="block pt-2 font-header text-xl font-bold uppercase text-primary">Software
-                        Engineer</span>
+                      <span class="block font-body font-bold text-grey-40">Depuis août 2021</span>
+                      <span class="block pt-2 font-header text-xl font-bold uppercase text-orange">Session privée</span>
                       <div class="pt-2">
-                        <span class="block font-body text-black">Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit.
-                          Vestibulum mattis felis vitae risus pulvinar tincidunt. Nam ac
-                          venenatis enim.</span>
+                        <span class="block font-body text-black">En dehors des pratiquant·e·s de la Level·le up le
+                          Hangar n’est pas ouvert aux spectateurs, il faut respecter le droit à l’image : captation et
+                          diffusion, celles-ci sont interdites.</span>
                       </div>
                     </div>
                   </div>
@@ -603,6 +645,167 @@
               </div>
             </div>
             <div class="mt-8 flex flex-col text-center md:flex-row md:text-left">
+              <div class="md:w-2/5">
+                <div class="flex justify-center md:justify-start">
+                  <span class="shrink-0">
+                    <img src="/assets/img/hands-holding-child-solid.svg" class="h-auto w-19" alt="company logo" />
+                  </span>
+                  <div class="relative ml-3 hidden w-full md:block">
+                    <span class="absolute inset-x-0 top-1/2 h-0.5 -translate-y-1/2 transform bg-grey-70"></span>
+                  </div>
+                </div>
+              </div>
+              <div class="md:w-3/5">
+                <div class="relative flex md:pl-18">
+                  <span
+                    class="absolute left-8 top-1 hidden h-4 w-4 rounded-full border-2 border-grey-40 bg-white md:block"></span>
+
+                  <div class="mt-1 flex">
+                    <i class="bx bxs-right-arrow hidden text-orange md:block"></i>
+                    <div class="md:-mt-1 md:pl-8">
+                      <span class="block font-body font-bold text-grey-40">Depuis novembre 2022</span>
+                      <span class="block pt-2 font-header text-xl font-bold uppercase text-orange">Accompagnant·es
+                        majeurs autorisé·s</span>
+                      <div class="pt-2">
+                        <span class="block font-body text-black">Seuls les accompagnants de mineurs de - de 12 ans sont
+                          acceptés.</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="mt-8 flex flex-col text-center md:flex-row md:text-left">
+              <div class="md:w-2/5">
+                <div class="flex justify-center md:justify-start">
+                  <span class="shrink-0">
+                    <img src="/assets/img/people-arrows-solid.svg" class="h-auto w-19" alt="company logo" />
+                  </span>
+                  <div class="relative ml-3 hidden w-full md:block">
+                    <span class="absolute inset-x-0 top-1/2 h-0.5 -translate-y-1/2 transform bg-grey-70"></span>
+                  </div>
+                </div>
+              </div>
+              <div class="md:w-3/5">
+                <div class="relative flex md:pl-18">
+                  <span
+                    class="absolute left-8 top-1 hidden h-4 w-4 rounded-full border-2 border-grey-40 bg-white md:block"></span>
+
+                  <div class="mt-1 flex">
+                    <i class="bx bxs-right-arrow hidden text-orange md:block"></i>
+                    <div class="md:-mt-1 md:pl-8">
+                      <span class="block font-body font-bold text-grey-40">Depuis août 2021</span>
+                      <span class="block pt-2 font-header text-xl font-bold uppercase text-orange">échange de bon
+                        procédés</span>
+                      <div class="pt-2">
+                        <span class="block font-body text-black">En venant rouler à la Level·le Up, tout le monde
+                          s’engage à être accueillant·e envers chacun·e, à prodiguer des conseils si on nous le demande
+                          et si on s’en sent capable d'y répondre.<br>
+                          <i>Il ne faut pas hésiter à venir demander du soutien si on en a besoin, et à signaler tout
+                            comportement qui pourrait mettre mal à l’aise.</i></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="mt-8 flex flex-col text-center md:flex-row md:text-left">
+              <div class="md:w-2/5">
+                <div class="flex justify-center md:justify-start">
+                  <span class="shrink-0">
+                    <img src="/assets/img/people-pulling-solid.svg" class="h-auto w-19" alt="company logo" />
+                  </span>
+                  <div class="relative ml-3 hidden w-full md:block">
+                    <span class="absolute inset-x-0 top-1/2 h-0.5 -translate-y-1/2 transform bg-grey-70"></span>
+                  </div>
+                </div>
+              </div>
+              <div class="md:w-3/5">
+                <div class="relative flex md:pl-18">
+                  <span
+                    class="absolute left-8 top-1 hidden h-4 w-4 rounded-full border-2 border-grey-40 bg-white md:block"></span>
+
+                  <div class="mt-1 flex">
+                    <i class="bx bxs-right-arrow hidden text-orange md:block"></i>
+                    <div class="md:-mt-1 md:pl-8">
+                      <span class="block font-body font-bold text-grey-40">Depuis août 2021</span>
+                      <span class="block pt-2 font-header text-xl font-bold uppercase text-orange">Toutes initiatives
+                        sont les bienvenues</span>
+                      <div class="pt-2">
+                        <span class="block font-body text-black">Toute aide et conseil mutuel sont encouragés et
+                          bienvenus !<br>Si quelqu’un·e souhaite organiser un mini cours, tuto ou autre, merci de bien
+                          vouloir le signaler à l'accueil.</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="mt-8 flex flex-col text-center md:flex-row md:text-left">
+              <div class="md:w-2/5">
+                <div class="flex justify-center md:justify-start">
+                  <span class="shrink-0">
+                    <img src="/assets/img/hand-fist-solid.svg" class="h-auto w-19" alt="company logo" />
+                  </span>
+                  <div class="relative ml-3 hidden w-full md:block">
+                    <span class="absolute inset-x-0 top-1/2 h-0.5 -translate-y-1/2 transform bg-grey-70"></span>
+                  </div>
+                </div>
+              </div>
+              <div class="md:w-3/5">
+                <div class="relative flex md:pl-18">
+                  <span
+                    class="absolute left-8 top-1 hidden h-4 w-4 rounded-full border-2 border-grey-40 bg-white md:block"></span>
+
+                  <div class="mt-1 flex">
+                    <i class="bx bxs-right-arrow hidden text-orange md:block"></i>
+                    <div class="md:-mt-1 md:pl-8">
+                      <span class="block font-body font-bold text-grey-40">Depuis août 2021</span>
+                      <span class="block pt-2 font-header text-xl font-bold uppercase text-orange">Impose ton
+                        style</span>
+                      <div class="pt-2">
+                        <span class="block font-body text-black">Aucune prise de tête, pas d’obligations, ni de limite
+                          d’âge !<br>En plus de bons moments de partage, ces sessions se veulent être un tremplin pour
+                          les débutant·es !</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="mt-8 flex flex-col text-center md:flex-row md:text-left">
+              <div class="md:w-2/5">
+                <div class="flex justify-center md:justify-start">
+                  <span class="shrink-0">
+                    <img src="/assets/img/scale-unbalanced-flip-solid.svg" class="h-auto w-19" alt="company logo" />
+                  </span>
+                  <div class="relative ml-3 hidden w-full md:block">
+                    <span class="absolute inset-x-0 top-1/2 h-0.5 -translate-y-1/2 transform bg-grey-70"></span>
+                  </div>
+                </div>
+              </div>
+              <div class="md:w-3/5">
+                <div class="relative flex md:pl-18">
+                  <span
+                    class="absolute left-8 top-1 hidden h-4 w-4 rounded-full border-2 border-grey-40 bg-white md:block"></span>
+
+                  <div class="mt-1 flex">
+                    <i class="bx bxs-right-arrow hidden text-orange md:block"></i>
+                    <div class="md:-mt-1 md:pl-8">
+                      <span class="block font-body font-bold text-grey-40">Depuis novembre 2022</span>
+                      <span class="block pt-2 font-header text-xl font-bold uppercase text-orange">Rappel de la
+                        loi</span>
+                      <div class="pt-2">
+                        <span class="block font-body text-black">Les propos sexistes, homophobes, transphobes ne sont
+                          pas une opinion : au même titre que le racisme, il s’agit d’une infraction qui peut être
+                          sanctionnée d’une amende et/ou d’une peine d’emprisonnement.</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- <div class="mt-8 flex flex-col text-center md:flex-row md:text-left">
               <div class="md:w-2/5">
                 <div class="flex justify-center md:justify-start">
                   <span class="shrink-0">
@@ -633,262 +836,261 @@
                     </div>
                   </div>
                 </div>
+              </div> -->
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-cover bg-top bg-no-repeat pb-16 md:py-16 lg:py-24"
+        style="background-image: url(/assets/img/experience-figure.png)" id="statistics">
+        <div class="container">
+          <div class="mx-auto w-5/6 bg-white py-16 shadow md:w-11/12 lg:py-20 xl:py-24 2xl:w-full">
+            <div class="grid grid-cols-2 gap-5 md:gap-8 xl:grid-cols-4 xl:gap-5">
+              <div class="flex flex-col items-center justify-center text-center md:flex-row md:text-left">
+                <div>
+                  <img src="/assets/img/icon-project.svg" class="mx-auto h-12 w-auto md:h-20" alt="icon project" />
+                </div>
+                <div class="pt-5 md:pl-5 md:pt-0">
+                  <h1 class="font-body text-2xl font-bold text-primary md:text-4xl">
+                    12
+                  </h1>
+                  <h4 class="text-grey-dark font-header text-base font-medium leading-loose md:text-xl">
+                    Finished Projects
+                  </h4>
+                </div>
+              </div>
+
+              <div class="flex flex-col items-center justify-center text-center md:flex-row md:text-left">
+                <div>
+                  <img src="/assets/img/icon-award.svg" class="mx-auto h-12 w-auto md:h-20" alt="icon award" />
+                </div>
+                <div class="pt-5 md:pl-5 md:pt-0">
+                  <h1 class="font-body text-2xl font-bold text-primary md:text-4xl">
+                    3
+                  </h1>
+                  <h4 class="text-grey-dark font-header text-base font-medium leading-loose md:text-xl">
+                    Awards Won
+                  </h4>
+                </div>
+              </div>
+
+              <div
+                class="mt-6 flex flex-col items-center justify-center text-center md:mt-10 md:flex-row md:text-left lg:mt-0">
+                <div>
+                  <img src="/assets/img/icon-happy.svg" class="mx-auto h-12 w-auto md:h-20" alt="icon happy clients" />
+                </div>
+                <div class="pt-5 md:pl-5 md:pt-0">
+                  <h1 class="font-body text-2xl font-bold text-primary md:text-4xl">
+                    8
+                  </h1>
+                  <h4 class="text-grey-dark font-header text-base font-medium leading-loose md:text-xl">
+                    Happy Clients
+                  </h4>
+                </div>
+              </div>
+
+              <div
+                class="mt-6 flex flex-col items-center justify-center text-center md:mt-10 md:flex-row md:text-left lg:mt-0">
+                <div>
+                  <img src="/assets/img/icon-puzzle.svg" class="mx-auto h-12 w-auto md:h-20" alt="icon puzzle" />
+                </div>
+                <div class="pt-5 md:pl-5 md:pt-0">
+                  <h1 class="font-body text-2xl font-bold text-primary md:text-4xl">
+                    99
+                  </h1>
+                  <h4 class="text-grey-dark font-header text-base font-medium leading-loose md:text-xl">
+                    Bugs Fixed
+                  </h4>
+                </div>
               </div>
             </div>
           </div>
         </div>
+      </div>
 
-        <div class="bg-cover bg-top bg-no-repeat pb-16 md:py-16 lg:py-24"
-          style="background-image: url(/assets/img/experience-figure.png)" id="statistics">
-          <div class="container">
-            <div class="mx-auto w-5/6 bg-white py-16 shadow md:w-11/12 lg:py-20 xl:py-24 2xl:w-full">
-              <div class="grid grid-cols-2 gap-5 md:gap-8 xl:grid-cols-4 xl:gap-5">
-                <div class="flex flex-col items-center justify-center text-center md:flex-row md:text-left">
-                  <div>
-                    <img src="/assets/img/icon-project.svg" class="mx-auto h-12 w-auto md:h-20" alt="icon project" />
-                  </div>
-                  <div class="pt-5 md:pl-5 md:pt-0">
-                    <h1 class="font-body text-2xl font-bold text-primary md:text-4xl">
-                      12
-                    </h1>
-                    <h4 class="text-grey-dark font-header text-base font-medium leading-loose md:text-xl">
-                      Finished Projects
-                    </h4>
-                  </div>
-                </div>
-
-                <div class="flex flex-col items-center justify-center text-center md:flex-row md:text-left">
-                  <div>
-                    <img src="/assets/img/icon-award.svg" class="mx-auto h-12 w-auto md:h-20" alt="icon award" />
-                  </div>
-                  <div class="pt-5 md:pl-5 md:pt-0">
-                    <h1 class="font-body text-2xl font-bold text-primary md:text-4xl">
-                      3
-                    </h1>
-                    <h4 class="text-grey-dark font-header text-base font-medium leading-loose md:text-xl">
-                      Awards Won
-                    </h4>
-                  </div>
-                </div>
-
-                <div
-                  class="mt-6 flex flex-col items-center justify-center text-center md:mt-10 md:flex-row md:text-left lg:mt-0">
-                  <div>
-                    <img src="/assets/img/icon-happy.svg" class="mx-auto h-12 w-auto md:h-20"
-                      alt="icon happy clients" />
-                  </div>
-                  <div class="pt-5 md:pl-5 md:pt-0">
-                    <h1 class="font-body text-2xl font-bold text-primary md:text-4xl">
-                      8
-                    </h1>
-                    <h4 class="text-grey-dark font-header text-base font-medium leading-loose md:text-xl">
-                      Happy Clients
-                    </h4>
-                  </div>
-                </div>
-
-                <div
-                  class="mt-6 flex flex-col items-center justify-center text-center md:mt-10 md:flex-row md:text-left lg:mt-0">
-                  <div>
-                    <img src="/assets/img/icon-puzzle.svg" class="mx-auto h-12 w-auto md:h-20" alt="icon puzzle" />
-                  </div>
-                  <div class="pt-5 md:pl-5 md:pt-0">
-                    <h1 class="font-body text-2xl font-bold text-primary md:text-4xl">
-                      99
-                    </h1>
-                    <h4 class="text-grey-dark font-header text-base font-medium leading-loose md:text-xl">
-                      Bugs Fixed
-                    </h4>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="bg-grey-50" id="blog">
-          <div class="container py-16 md:py-20">
-            <h2 class="text-center font-header text-4xl font-semibold uppercase text-primary sm:text-5xl lg:text-6xl">
-              I also like to write
-            </h2>
-            <h4 class="pt-6 text-center font-header text-xl font-medium text-black sm:text-2xl lg:text-3xl">
-              Check out my latest posts!
-            </h4>
-            <div class="mx-auto grid w-full grid-cols-1 gap-6 pt-12 sm:w-3/4 lg:w-full lg:grid-cols-3 xl:gap-10">
-              <a href="/post" class="shadow">
-                <div style="background-image: url(/assets/img/post-01.png)"
-                  class="group relative h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72">
-                  <span
-                    class="absolute inset-0 block bg-gradient-to-b from-blog-gradient-from to-blog-gradient-to bg-cover bg-center bg-no-repeat opacity-10 transition-opacity group-hover:opacity-50"></span>
-                  <span
-                    class="absolute right-0 bottom-0 mr-4 mb-4 block rounded-full border-2 border-white px-6 py-2 text-center font-body text-sm font-bold uppercase text-white md:text-base">Read
-                    More</span>
-                </div>
-                <div class="bg-white py-6 px-5 xl:py-8">
-                  <span class="block font-body text-lg font-semibold text-black">How to become a frontend
-                    developer</span>
-                  <span class="block pt-2 font-body text-grey-20">Lorem ipsum dolor sit amet, consectetur adipiscing
-                    elit, sed do
-                    eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
-                </div>
-              </a>
-              <a href="/post" class="shadow">
-                <div style="background-image: url(/assets/img/post-02.png)"
-                  class="group relative h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72">
-                  <span
-                    class="absolute inset-0 block bg-gradient-to-b from-blog-gradient-from to-blog-gradient-to bg-cover bg-center bg-no-repeat opacity-10 transition-opacity group-hover:opacity-50"></span>
-                  <span
-                    class="absolute right-0 bottom-0 mr-4 mb-4 block rounded-full border-2 border-white px-6 py-2 text-center font-body text-sm font-bold uppercase text-white md:text-base">Read
-                    More</span>
-                </div>
-                <div class="bg-white py-6 px-5 xl:py-8">
-                  <span class="block font-body text-lg font-semibold text-black">My personal productivity system</span>
-                  <span class="block pt-2 font-body text-grey-20">Lorem ipsum dolor sit amet, consectetur adipiscing
-                    elit, sed do
-                    eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
-                </div>
-              </a>
-              <a href="/post" class="shadow">
-                <div style="background-image: url(/assets/img/post-03.png)"
-                  class="group relative h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72">
-                  <span
-                    class="absolute inset-0 block bg-gradient-to-b from-blog-gradient-from to-blog-gradient-to bg-cover bg-center bg-no-repeat opacity-10 transition-opacity group-hover:opacity-50"></span>
-                  <span
-                    class="absolute right-0 bottom-0 mr-4 mb-4 block rounded-full border-2 border-white px-6 py-2 text-center font-body text-sm font-bold uppercase text-white md:text-base">Read
-                    More</span>
-                </div>
-                <div class="bg-white py-6 px-5 xl:py-8">
-                  <span class="block font-body text-lg font-semibold text-black">My year in review 2020</span>
-                  <span class="block pt-2 font-body text-grey-20">Lorem ipsum dolor sit amet, consectetur adipiscing
-                    elit, sed do
-                    eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
-                </div>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <div class="container py-16 md:py-20" id="contact">
+      <div class="bg-grey-50" id="blog">
+        <div class="container py-16 md:py-20">
           <h2 class="text-center font-header text-4xl font-semibold uppercase text-primary sm:text-5xl lg:text-6xl">
-            Here's a contact form
+            I also like to write
           </h2>
           <h4 class="pt-6 text-center font-header text-xl font-medium text-black sm:text-2xl lg:text-3xl">
-            Have Any Questions?
+            Check out my latest posts!
           </h4>
-          <div class="mx-auto w-full pt-5 text-center sm:w-2/3 lg:pt-6">
-            <p class="font-body text-grey-10">
-              Lorem ipsum dolor sit amet consectetur adipiscing elit hendrerit
-              condimentum turpis nisl sem, viverra habitasse urna ante lobortis
-              fermentum accumsan. Viverra habitasse urna ante lobortis fermentum
-              accumsan.
+          <div class="mx-auto grid w-full grid-cols-1 gap-6 pt-12 sm:w-3/4 lg:w-full lg:grid-cols-3 xl:gap-10">
+            <a href="/post" class="shadow">
+              <div style="background-image: url(/assets/img/post-01.png)"
+                class="group relative h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72">
+                <span
+                  class="absolute inset-0 block bg-gradient-to-b from-blog-gradient-from to-blog-gradient-to bg-cover bg-center bg-no-repeat opacity-10 transition-opacity group-hover:opacity-50"></span>
+                <span
+                  class="absolute right-0 bottom-0 mr-4 mb-4 block rounded-full border-2 border-white px-6 py-2 text-center font-body text-sm font-bold uppercase text-white md:text-base">Read
+                  More</span>
+              </div>
+              <div class="bg-white py-6 px-5 xl:py-8">
+                <span class="block font-body text-lg font-semibold text-black">How to become a frontend
+                  developer</span>
+                <span class="block pt-2 font-body text-grey-20">Lorem ipsum dolor sit amet, consectetur adipiscing
+                  elit, sed do
+                  eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
+              </div>
+            </a>
+            <a href="/post" class="shadow">
+              <div style="background-image: url(/assets/img/post-02.png)"
+                class="group relative h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72">
+                <span
+                  class="absolute inset-0 block bg-gradient-to-b from-blog-gradient-from to-blog-gradient-to bg-cover bg-center bg-no-repeat opacity-10 transition-opacity group-hover:opacity-50"></span>
+                <span
+                  class="absolute right-0 bottom-0 mr-4 mb-4 block rounded-full border-2 border-white px-6 py-2 text-center font-body text-sm font-bold uppercase text-white md:text-base">Read
+                  More</span>
+              </div>
+              <div class="bg-white py-6 px-5 xl:py-8">
+                <span class="block font-body text-lg font-semibold text-black">My personal productivity system</span>
+                <span class="block pt-2 font-body text-grey-20">Lorem ipsum dolor sit amet, consectetur adipiscing
+                  elit, sed do
+                  eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
+              </div>
+            </a>
+            <a href="/post" class="shadow">
+              <div style="background-image: url(/assets/img/post-03.png)"
+                class="group relative h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72">
+                <span
+                  class="absolute inset-0 block bg-gradient-to-b from-blog-gradient-from to-blog-gradient-to bg-cover bg-center bg-no-repeat opacity-10 transition-opacity group-hover:opacity-50"></span>
+                <span
+                  class="absolute right-0 bottom-0 mr-4 mb-4 block rounded-full border-2 border-white px-6 py-2 text-center font-body text-sm font-bold uppercase text-white md:text-base">Read
+                  More</span>
+              </div>
+              <div class="bg-white py-6 px-5 xl:py-8">
+                <span class="block font-body text-lg font-semibold text-black">My year in review 2020</span>
+                <span class="block pt-2 font-body text-grey-20">Lorem ipsum dolor sit amet, consectetur adipiscing
+                  elit, sed do
+                  eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="container py-16 md:py-20" id="contact">
+        <h2 class="text-center font-header text-4xl font-semibold uppercase text-primary sm:text-5xl lg:text-6xl">
+          Here's a contact form
+        </h2>
+        <h4 class="pt-6 text-center font-header text-xl font-medium text-black sm:text-2xl lg:text-3xl">
+          Have Any Questions?
+        </h4>
+        <div class="mx-auto w-full pt-5 text-center sm:w-2/3 lg:pt-6">
+          <p class="font-body text-grey-10">
+            Lorem ipsum dolor sit amet consectetur adipiscing elit hendrerit
+            condimentum turpis nisl sem, viverra habitasse urna ante lobortis
+            fermentum accumsan. Viverra habitasse urna ante lobortis fermentum
+            accumsan.
+          </p>
+        </div>
+        <form class="mx-auto w-full pt-10 sm:w-3/4">
+          <div class="flex flex-col md:flex-row">
+            <input class="mr-3 w-full rounded border-grey-50 px-4 py-3 font-body text-black md:w-1/2 lg:mr-5"
+              placeholder="Name" type="text" id="name" />
+            <input
+              class="mt-6 w-full rounded border-grey-50 px-4 py-3 font-body text-black md:mt-0 md:ml-3 md:w-1/2 lg:ml-5"
+              placeholder="Email" type="text" id="email" />
+          </div>
+          <textarea class="mt-6 w-full rounded border-grey-50 px-4 py-3 font-body text-black md:mt-8"
+            placeholder="Message" id="message" cols="30" rows="10"></textarea>
+          <button
+            class="mt-6 flex items-center justify-center rounded bg-primary px-8 py-3 font-header text-lg font-bold uppercase text-white hover:bg-grey-20">
+            Send
+            <i class="bx bx-chevron-right relative -right-2 text-3xl"></i>
+          </button>
+        </form>
+        <div class="flex flex-col pt-16 lg:flex-row">
+          <div class="w-full border-l-2 border-t-2 border-r-2 border-b-2 border-grey-60 px-6 py-6 sm:py-8 lg:w-1/3">
+            <div class="flex items-center">
+              <i class="bx bx-phone text-2xl text-grey-40"></i>
+              <p class="pl-2 font-body font-bold uppercase text-grey-40 lg:text-lg">
+                My Phone
+              </p>
+            </div>
+            <p class="pt-2 text-left font-body font-bold text-primary lg:text-lg">
+              (+881) 111 222 333
             </p>
           </div>
-          <form class="mx-auto w-full pt-10 sm:w-3/4">
-            <div class="flex flex-col md:flex-row">
-              <input class="mr-3 w-full rounded border-grey-50 px-4 py-3 font-body text-black md:w-1/2 lg:mr-5"
-                placeholder="Name" type="text" id="name" />
-              <input
-                class="mt-6 w-full rounded border-grey-50 px-4 py-3 font-body text-black md:mt-0 md:ml-3 md:w-1/2 lg:ml-5"
-                placeholder="Email" type="text" id="email" />
+          <div
+            class="w-full border-l-2 border-t-0 border-r-2 border-b-2 border-grey-60 px-6 py-6 sm:py-8 lg:w-1/3 lg:border-l-0 lg:border-t-2">
+            <div class="flex items-center">
+              <i class="bx bx-envelope text-2xl text-grey-40"></i>
+              <p class="pl-2 font-body font-bold uppercase text-grey-40 lg:text-lg">
+                My Email
+              </p>
             </div>
-            <textarea class="mt-6 w-full rounded border-grey-50 px-4 py-3 font-body text-black md:mt-8"
-              placeholder="Message" id="message" cols="30" rows="10"></textarea>
+            <p class="pt-2 text-left font-body font-bold text-primary lg:text-lg">
+              name@mydomain.com
+            </p>
+          </div>
+          <div
+            class="w-full border-l-2 border-t-0 border-r-2 border-b-2 border-grey-60 px-6 py-6 sm:py-8 lg:w-1/3 lg:border-l-0 lg:border-t-2">
+            <div class="flex items-center">
+              <i class="bx bx-map text-2xl text-grey-40"></i>
+              <p class="pl-2 font-body font-bold uppercase text-grey-40 lg:text-lg">
+                My Address
+              </p>
+            </div>
+            <p class="pt-2 text-left font-body font-bold text-primary lg:text-lg">
+              123 New York D Block 1100, 2011 USA
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="h-72 bg-cover bg-center bg-no-repeat sm:h-64 md:h-72 lg:h-96"
+        style="background-image: url(/assets/img/map.png)"></div>
+
+      <div class="relative bg-primary bg-cover bg-center bg-no-repeat py-16 bg-blend-multiply lg:py-24"
+        style="background-image: url(/assets/img/bg-cta.jpg)">
+        <div class="container relative z-30">
+          <h3
+            class="text-center font-header text-3xl uppercase leading-tight tracking-wide text-white sm:text-4xl lg:text-5xl">
+            Keep <span class="font-bold">up-to-date</span> <br />
+            with what I'm up to
+          </h3>
+          <form class="mt-6 flex flex-col justify-center sm:flex-row">
+            <input class="w-full rounded px-4 py-3 font-body text-black sm:w-2/5 sm:py-4 lg:w-1/3" type="text"
+              id="email" placeholder="Give me your Email" />
             <button
-              class="mt-6 flex items-center justify-center rounded bg-primary px-8 py-3 font-header text-lg font-bold uppercase text-white hover:bg-grey-20">
-              Send
-              <i class="bx bx-chevron-right relative -right-2 text-3xl"></i>
+              class="mt-2 rounded bg-yellow px-8 py-3 font-body text-base font-bold uppercase text-primary transition-colors hover:bg-primary hover:text-white focus:border-transparent focus:outline-none focus:ring focus:ring-yellow sm:ml-2 sm:mt-0 sm:py-4 md:text-lg">
+              Join the club
             </button>
           </form>
-          <div class="flex flex-col pt-16 lg:flex-row">
-            <div class="w-full border-l-2 border-t-2 border-r-2 border-b-2 border-grey-60 px-6 py-6 sm:py-8 lg:w-1/3">
-              <div class="flex items-center">
-                <i class="bx bx-phone text-2xl text-grey-40"></i>
-                <p class="pl-2 font-body font-bold uppercase text-grey-40 lg:text-lg">
-                  My Phone
-                </p>
-              </div>
-              <p class="pt-2 text-left font-body font-bold text-primary lg:text-lg">
-                (+881) 111 222 333
-              </p>
-            </div>
-            <div
-              class="w-full border-l-2 border-t-0 border-r-2 border-b-2 border-grey-60 px-6 py-6 sm:py-8 lg:w-1/3 lg:border-l-0 lg:border-t-2">
-              <div class="flex items-center">
-                <i class="bx bx-envelope text-2xl text-grey-40"></i>
-                <p class="pl-2 font-body font-bold uppercase text-grey-40 lg:text-lg">
-                  My Email
-                </p>
-              </div>
-              <p class="pt-2 text-left font-body font-bold text-primary lg:text-lg">
-                name@mydomain.com
-              </p>
-            </div>
-            <div
-              class="w-full border-l-2 border-t-0 border-r-2 border-b-2 border-grey-60 px-6 py-6 sm:py-8 lg:w-1/3 lg:border-l-0 lg:border-t-2">
-              <div class="flex items-center">
-                <i class="bx bx-map text-2xl text-grey-40"></i>
-                <p class="pl-2 font-body font-bold uppercase text-grey-40 lg:text-lg">
-                  My Address
-                </p>
-              </div>
-              <p class="pt-2 text-left font-body font-bold text-primary lg:text-lg">
-                123 New York D Block 1100, 2011 USA
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="h-72 bg-cover bg-center bg-no-repeat sm:h-64 md:h-72 lg:h-96"
-          style="background-image: url(/assets/img/map.png)"></div>
-
-        <div class="relative bg-primary bg-cover bg-center bg-no-repeat py-16 bg-blend-multiply lg:py-24"
-          style="background-image: url(/assets/img/bg-cta.jpg)">
-          <div class="container relative z-30">
-            <h3
-              class="text-center font-header text-3xl uppercase leading-tight tracking-wide text-white sm:text-4xl lg:text-5xl">
-              Keep <span class="font-bold">up-to-date</span> <br />
-              with what I'm up to
-            </h3>
-            <form class="mt-6 flex flex-col justify-center sm:flex-row">
-              <input class="w-full rounded px-4 py-3 font-body text-black sm:w-2/5 sm:py-4 lg:w-1/3" type="text"
-                id="email" placeholder="Give me your Email" />
-              <button
-                class="mt-2 rounded bg-yellow px-8 py-3 font-body text-base font-bold uppercase text-primary transition-colors hover:bg-primary hover:text-white focus:border-transparent focus:outline-none focus:ring focus:ring-yellow sm:ml-2 sm:mt-0 sm:py-4 md:text-lg">
-                Join the club
-              </button>
-            </form>
-          </div>
         </div>
       </div>
-
-      <div class="bg-primary">
-        <div class="container flex flex-col justify-between py-6 sm:flex-row">
-          <p class="text-center font-body text-white md:text-left">
-            © Copyright 2022. All right reserved, ATOM.
-          </p>
-          <div class="flex items-center justify-center pt-5 sm:justify-start sm:pt-0">
-            <a href="/">
-              <i class="bx bxl-facebook-square text-2xl text-white hover:text-yellow"></i>
-            </a>
-            <a href="/" class="pl-4">
-              <i class="bx bxl-twitter text-2xl text-white hover:text-yellow"></i>
-            </a>
-            <a href="/" class="pl-4">
-              <i class="bx bxl-dribbble text-2xl text-white hover:text-yellow"></i>
-            </a>
-            <a href="/" class="pl-4">
-              <i class="bx bxl-linkedin text-2xl text-white hover:text-yellow"></i>
-            </a>
-            <a href="/" class="pl-4">
-              <i class="bx bxl-instagram text-2xl text-white hover:text-yellow"></i>
-            </a>
-          </div>
-        </div>
-      </div>
-
     </div>
 
-    <script src="/assets/js/main.js"></script>
+    <div class="bg-primary">
+      <div class="container flex flex-col justify-between py-6 sm:flex-row">
+        <p class="text-center font-body text-white md:text-left">
+          © Copyright 2022. All right reserved, ATOM.
+        </p>
+        <div class="flex items-center justify-center pt-5 sm:justify-start sm:pt-0">
+          <a href="/">
+            <i class="bx bxl-facebook-square text-2xl text-white hover:text-yellow"></i>
+          </a>
+          <a href="/" class="pl-4">
+            <i class="bx bxl-twitter text-2xl text-white hover:text-yellow"></i>
+          </a>
+          <a href="/" class="pl-4">
+            <i class="bx bxl-dribbble text-2xl text-white hover:text-yellow"></i>
+          </a>
+          <a href="/" class="pl-4">
+            <i class="bx bxl-linkedin text-2xl text-white hover:text-yellow"></i>
+          </a>
+          <a href="/" class="pl-4">
+            <i class="bx bxl-instagram text-2xl text-white hover:text-yellow"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="/assets/js/main.js"></script>
 
 
 </body>
