@@ -5,19 +5,21 @@
   <meta charset="utf-8" />
   <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible" />
   <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport" />
-  <title>Homepage | Atom Template</title>
+  <title>Level·le Up Sessions</title>
   <meta property="og:title" content="Homepage | Atom Template" />
   <meta property="og:locale" content="en_US" />
   <link rel="canonical" href="//" />
   <meta property="og:url" content="//" />
   <meta name="description"
     content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." />
-  <link rel="icon" type="image/png" href="/assets/img/favicon.png" />
+  <link rel="icon" type="image/png" href="/assets/img/level·le-up-helmet-white.png" />
   <meta name="theme-color" content="#5540af" />
   <meta property="og:site_name" content="Atom Template" />
   <meta property="og:image" content="//assets/img/social.jpg" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:site" content="@tailwindmade" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+    integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin="" /> <!-- MAPS-->
   <link crossorigin="crossorigin" href="https://fonts.gstatic.com" rel="preconnect" />
   <link as="style"
     href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Raleway:wght@400;500;600;700&display=swap"
@@ -27,6 +29,8 @@
     rel="stylesheet" />
   <link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet" />
   <link crossorigin="anonymous" href="/assets/styles/main.min.css" media="screen" rel="stylesheet" />
+  <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+    integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script> <!-- MAPS JS-->
   <script defer src="https://unpkg.com/@alpine-collective/toolkit@1.0.0/dist/cdn.min.js"></script>
   <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
 </head>
@@ -374,7 +378,7 @@
             </div>
           </div>
         </div>
-
+        <!-- ADHESION -->
         <div class="container py-16 md:py-20" id="services">
           <h2 class="text-center font-header text-4xl font-semibold uppercase text-yellow sm:text-5xl lg:text-6xl">
             T'as ton adhésion !?
@@ -517,33 +521,75 @@
             </div> -->
           </div>
         </div>
-
+        <div class="relative bg-orange bg-cover bg-center bg-no-repeat py-16 bg-blend-multiply lg:py-24"
+          style="background-image: url(/assets/img/joolz-funny-vurt.jpg)">
+          <div class="container relative z-30">
+            <h3
+              class="text-center font-header text-3xl uppercase leading-tight tracking-wide text-white sm:text-4xl lg:text-5xl">
+              Hey !<br><span class="font-bold">gagne du temps</span> <br />
+              et souscrit en ligne
+            </h3>
+            <button
+              class="mt-2 rounded bg-yellow px-8 py-3 font-body text-base font-bold uppercase text-white transition-colors hover:bg-orange hover:text-white focus:border-transparent focus:outline-none focus:ring focus:ring-yellow sm:ml-2 sm:mt-0 sm:py-4 md:text-lg">
+              <a href="https://www.helloasso.com/associations/la-brigade/adhesions/adhesion-brigade-2020-2021"
+                target="_blank">Je m'inscris</a>
+            </button>
+          </div>
+        </div>
         <div class="container py-16 md:py-20" id="portfolio">
           <h2 class="text-center font-header text-4xl font-semibold uppercase text-orange sm:text-5xl lg:text-6xl">
             Un p'tit retour en image !?
           </h2>
           <h3 class="pt-6 text-center font-header text-xl font-medium text-black sm:text-2xl lg:text-3xl">
-            Une session riche en diversitées
+            <!-- Une session où les disciplines sont riche en diversitées -->
+            une session qui mixe les disciplines
           </h3>
 
           <div class="mx-auto grid w-full grid-cols-1 gap-8 pt-12 sm:w-3/4 md:gap-10 lg:w-full lg:grid-cols-2">
             <a href="/" class="mx-auto transform transition-all hover:scale-105 md:mx-0 ">
-              <img src="/assets/img/team-quad.jpg" class="shadow block object-contain h16 w-fit" alt="portfolio image" />
+              <img src="/assets/img/event-oct-2021.jpg" class="shadow block object-contain h16 w-fit"
+                alt="portfolio image" />
+            </a>
+            <a href="/" class="mx-auto transform transition-all hover:scale-105 md:mx-0 ">
+              <img src="/assets/img/event-game-boardellefest.jpg" class="shadow block object-contain h16 w-fit"
+                alt="portfolio image" />
+            </a>
+            <a href="/" class="mx-auto transform transition-all hover:scale-105 md:mx-0 ">
+              <img src="/assets/img/roller-skate-rampes.jpg" class="shadow block object-contain h16 w-fit"
+                alt="portfolio image" />
+            </a>
+            <a href="/" class="mx-auto transform transition-all hover:scale-105 md:mx-0 ">
+              <img src="/assets/img/team-quad 2.jpg" class="shadow block object-contain h16 w-fit"
+                alt="portfolio image" />
             </a>
             <a href="/" class="mx-auto transform transition-all hover:scale-105 md:mx-0">
-              <img src="/assets/img/skate-rampe.jpg" class="shadow object-contain h16 w-fit" alt="portfolio image" />
+              <img src="/assets/img/skate-session-dad-helping.jpg" class="shadow object-contain h16 w-fit"
+                alt="portfolio image" />
             </a>
             <a href="/" class="mx-auto transform transition-all hover:scale-105 md:mx-0">
-              <img src="/assets/img/joolz-slide-quad.jpg" class="shadow object-contain h16 w-fit" alt="portfolio image" />
+              <img src="/assets/img/girl-helping-skate-rampe.jpg" class="shadow object-contain h16 w-fit"
+                alt="portfolio image" />
             </a>
             <a href="/" class="mx-auto transform transition-all hover:scale-105 md:mx-0">
-              <img src="/assets/img/background-hero-skate.jpg" class="object-contain h16 w-fit shadow" alt="portfolio image" />
+              <img src="/assets/img/joolz-rail.jpg" class="shadow object-contain h16 w-fit" alt="portfolio image" />
             </a>
             <a href="/" class="mx-auto transform transition-all hover:scale-105 md:mx-0">
-              <img src="/assets/img/background-hero-skateandroller-rampe.jpg" class="object-cover h48 w-fit shadow" alt="portfolio image" />
+              <img src="/assets/img/background-hero-skate.jpg" class="object-contain h16 w-fit shadow"
+                alt="portfolio image" />
+            </a>
+            <a href="/" class="mx-auto transform transition-all hover:scale-105 md:mx-0">
+              <img src="/assets/img/background-hero-skateandroller-rampe.jpg" class="object-cover h48 w-fit shadow"
+                alt="portfolio image" />
             </a>
             <a href="/" class="mx-auto transform transition-all hover:scale-105 md:mx-0">
               <img src="/assets/img/kids-curb.jpg" class="object-contain h16 w-fit shadow" alt="portfolio image" />
+            </a>
+            <a href="/" class="mx-auto transform transition-all hover:scale-105 md:mx-0">
+              <img src="/assets/img/kids-skate-girl-rampes.jpg" class="object-contain h16 w-fit shadow"
+                alt="portfolio image" />
+            </a>
+            <a href="/" class="mx-auto transform transition-all hover:scale-105 md:mx-0">
+              <img src="/assets/img/bmx-tricks.jpg" class="object-contain h16 w-fit shadow" alt="portfolio image" />
             </a>
           </div>
         </div>
@@ -556,10 +602,11 @@
               </h2>
               <div class="flex flex-wrap items-center justify-center pt-4 sm:pt-4">
                 <span class="m-8 block">
-                  <img src="/assets/img/logo-hangar-darwin-noir.png" alt="client logo" class="mx-auto block h-12 w-auto" />
+                  <img src="/assets/img/logo-hangar-darwin-noir.svg" alt="client logo"
+                    class="mx-auto block h-24 w-auto" />
                 </span>
                 <span class="m-8 block">
-                  <img src="/assets/img/burdy_logo.png" alt="client logo" class="mx-auto block h-12 w-auto" />
+                  <img src="/assets/img/burdy_logo.svg" alt="client logo" class="mx-auto block h-40 w-auto" />
                 </span>
 
                 <!-- <span class="m-8 block">
@@ -910,15 +957,15 @@
 
       <div class="bg-grey-50" id="blog">
         <div class="container py-16 md:py-20">
-          <h2 class="text-center font-header text-4xl font-semibold uppercase text-primary sm:text-5xl lg:text-6xl">
-            I also like to write
+          <h2 class="text-center font-header text-4xl font-semibold uppercase text-orange sm:text-5xl lg:text-6xl">
+            Nos event
           </h2>
           <h4 class="pt-6 text-center font-header text-xl font-medium text-black sm:text-2xl lg:text-3xl">
-            Check out my latest posts!
+            Participe aux prochains !
           </h4>
           <div class="mx-auto grid w-full grid-cols-1 gap-6 pt-12 sm:w-3/4 lg:w-full lg:grid-cols-3 xl:gap-10">
             <a href="/post" class="shadow">
-              <div style="background-image: url(/assets/img/post-01.png)"
+              <div style="background-image: url(/assets/img/LevelleUpxBoardElleFestV2-03.png)"
                 class="group relative h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72">
                 <span
                   class="absolute inset-0 block bg-gradient-to-b from-blog-gradient-from to-blog-gradient-to bg-cover bg-center bg-no-repeat opacity-10 transition-opacity group-hover:opacity-50"></span>
@@ -935,7 +982,7 @@
               </div>
             </a>
             <a href="/post" class="shadow">
-              <div style="background-image: url(/assets/img/post-02.png)"
+              <div style="background-image: url(/assets/img/boardellefest2023.jpg)"
                 class="group relative h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72">
                 <span
                   class="absolute inset-0 block bg-gradient-to-b from-blog-gradient-from to-blog-gradient-to bg-cover bg-center bg-no-repeat opacity-10 transition-opacity group-hover:opacity-50"></span>
@@ -951,7 +998,7 @@
               </div>
             </a>
             <a href="/post" class="shadow">
-              <div style="background-image: url(/assets/img/post-03.png)"
+              <div style="background-image: url(/assets/img/apero-roller2022.jpg)"
                 class="group relative h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72">
                 <span
                   class="absolute inset-0 block bg-gradient-to-b from-blog-gradient-from to-blog-gradient-to bg-cover bg-center bg-no-repeat opacity-10 transition-opacity group-hover:opacity-50"></span>
@@ -971,21 +1018,29 @@
       </div>
 
       <div class="container py-16 md:py-20" id="contact">
-        <h2 class="text-center font-header text-4xl font-semibold uppercase text-primary sm:text-5xl lg:text-6xl">
-          Here's a contact form
+        <h2 class="text-center font-header text-4xl font-semibold uppercase text-orange sm:text-5xl lg:text-6xl">
+          Garder le lien avec nous !
         </h2>
         <h4 class="pt-6 text-center font-header text-xl font-medium text-black sm:text-2xl lg:text-3xl">
-          Have Any Questions?
+          On répond à toutes vos questions via nos réseaux sociaux où sur place.
         </h4>
         <div class="mx-auto w-full pt-5 text-center sm:w-2/3 lg:pt-6">
           <p class="font-body text-grey-10">
-            Lorem ipsum dolor sit amet consectetur adipiscing elit hendrerit
-            condimentum turpis nisl sem, viverra habitasse urna ante lobortis
-            fermentum accumsan. Viverra habitasse urna ante lobortis fermentum
-            accumsan.
+            Retrouvez nous sur notre compte Instagram avec lequel nous échangeont avec vous par écrit.
+        </div>
+        <div class="mx-auto w-full pt-5 text-center sm:w-2/3 lg:pt-6">
+          <p class="font-body text-grey-10">
+            Considérez que <b>la session est ouverte tous les dimanches de l'année !</b><br>
+            Lorsque nous fermons, un message est posté en storie !</p>
+        </div>
+        <div class="mx-auto w-full pt-5 text-center sm:w-2/3 lg:pt-6">
+          <p class="font-body text-grey-10">
+            Notre groupe Facebook privée sert à partager des bons plans (don, ventes de matériels) ou encore sur des
+            évènements à venir !
           </p>
         </div>
-        <form class="mx-auto w-full pt-10 sm:w-3/4">
+        <!-- FORM -->
+        <!-- <form class="mx-auto w-full pt-10 sm:w-3/4">
           <div class="flex flex-col md:flex-row">
             <input class="mr-3 w-full rounded border-grey-50 px-4 py-3 font-body text-black md:w-1/2 lg:mr-5"
               placeholder="Name" type="text" id="name" />
@@ -1000,29 +1055,29 @@
             Send
             <i class="bx bx-chevron-right relative -right-2 text-3xl"></i>
           </button>
-        </form>
+        </form> -->
         <div class="flex flex-col pt-16 lg:flex-row">
           <div class="w-full border-l-2 border-t-2 border-r-2 border-b-2 border-grey-60 px-6 py-6 sm:py-8 lg:w-1/3">
             <div class="flex items-center">
-              <i class="bx bx-phone text-2xl text-grey-40"></i>
+              <i class="bx bxl-instagram text-2xl text-grey-40"></i>
               <p class="pl-2 font-body font-bold uppercase text-grey-40 lg:text-lg">
-                My Phone
+                Messagerie Instagram
               </p>
             </div>
-            <p class="pt-2 text-left font-body font-bold text-primary lg:text-lg">
-              (+881) 111 222 333
+            <p class="pt-2 text-left font-body font-bold text-orange lg:text-lg break-all">
+              https://www.instagram.com/level.le_up_sessions/
             </p>
           </div>
           <div
             class="w-full border-l-2 border-t-0 border-r-2 border-b-2 border-grey-60 px-6 py-6 sm:py-8 lg:w-1/3 lg:border-l-0 lg:border-t-2">
             <div class="flex items-center">
-              <i class="bx bx-envelope text-2xl text-grey-40"></i>
+              <i class="bx bxl-facebook-square text-2xl text-grey-40"></i>
               <p class="pl-2 font-body font-bold uppercase text-grey-40 lg:text-lg">
-                My Email
+                Notre groupe Facebook
               </p>
             </div>
-            <p class="pt-2 text-left font-body font-bold text-primary lg:text-lg">
-              name@mydomain.com
+            <p class="pt-2 text-left font-body font-bold text-blue lg:text-lg break-all">
+              https://m.facebook.com/groups/200522225214619
             </p>
           </div>
           <div
@@ -1030,59 +1085,38 @@
             <div class="flex items-center">
               <i class="bx bx-map text-2xl text-grey-40"></i>
               <p class="pl-2 font-body font-bold uppercase text-grey-40 lg:text-lg">
-                My Address
+                Notre adresse
               </p>
             </div>
-            <p class="pt-2 text-left font-body font-bold text-primary lg:text-lg">
-              123 New York D Block 1100, 2011 USA
+            <p class="pt-2 text-left font-body font-bold text-orange lg:text-lg">
+              87 Quai des Queyries, 33100 Bordeaux
             </p>
           </div>
         </div>
       </div>
 
-      <div class="h-72 bg-cover bg-center bg-no-repeat sm:h-64 md:h-72 lg:h-96"
-        style="background-image: url(/assets/img/map.png)"></div>
+      <div id="map" class="w-full h-screen"></div> <!-- MAPS-->
 
-      <div class="relative bg-primary bg-cover bg-center bg-no-repeat py-16 bg-blend-multiply lg:py-24"
-        style="background-image: url(/assets/img/bg-cta.jpg)">
-        <div class="container relative z-30">
-          <h3
-            class="text-center font-header text-3xl uppercase leading-tight tracking-wide text-white sm:text-4xl lg:text-5xl">
-            Keep <span class="font-bold">up-to-date</span> <br />
-            with what I'm up to
-          </h3>
-          <form class="mt-6 flex flex-col justify-center sm:flex-row">
-            <input class="w-full rounded px-4 py-3 font-body text-black sm:w-2/5 sm:py-4 lg:w-1/3" type="text"
-              id="email" placeholder="Give me your Email" />
-            <button
-              class="mt-2 rounded bg-yellow px-8 py-3 font-body text-base font-bold uppercase text-primary transition-colors hover:bg-primary hover:text-white focus:border-transparent focus:outline-none focus:ring focus:ring-yellow sm:ml-2 sm:mt-0 sm:py-4 md:text-lg">
-              Join the club
-            </button>
-          </form>
-        </div>
-      </div>
+      <!-- <div class="h-72 bg-cover bg-center bg-no-repeat sm:h-64 md:h-72 lg:h-96"
+        style="background-image: url(/assets/img/map.png)"></div> -->
+
+
     </div>
 
-    <div class="bg-primary">
+    <div class="bg-orange">
       <div class="container flex flex-col justify-between py-6 sm:flex-row">
         <p class="text-center font-body text-white md:text-left">
           © Copyright 2022. All right reserved, ATOM.
         </p>
         <div class="flex items-center justify-center pt-5 sm:justify-start sm:pt-0">
-          <a href="/">
-            <i class="bx bxl-facebook-square text-2xl text-white hover:text-yellow"></i>
+          <a href="https://m.facebook.com/groups/200522225214619">
+            <i class="bx bxl-facebook-square text-2xl text-white hover:text-orangelight"></i>
           </a>
-          <a href="/" class="pl-4">
-            <i class="bx bxl-twitter text-2xl text-white hover:text-yellow"></i>
-          </a>
-          <a href="/" class="pl-4">
-            <i class="bx bxl-dribbble text-2xl text-white hover:text-yellow"></i>
-          </a>
-          <a href="/" class="pl-4">
+          <!-- <a href="/" class="pl-4">
             <i class="bx bxl-linkedin text-2xl text-white hover:text-yellow"></i>
-          </a>
-          <a href="/" class="pl-4">
-            <i class="bx bxl-instagram text-2xl text-white hover:text-yellow"></i>
+          </a> -->
+          <a href="https://www.instagram.com/level.le_up_sessions/" class="pl-4">
+            <i class="bx bxl-instagram text-2xl text-white hover:text-orangelight"></i>
           </a>
         </div>
       </div>

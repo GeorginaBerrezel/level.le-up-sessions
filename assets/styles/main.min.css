@@ -1364,6 +1364,10 @@ html {
   height: 1rem;
 }
 
+.h-40 {
+  height: 10rem;
+}
+
 .h-48 {
   height: 12rem;
 }
@@ -1376,20 +1380,8 @@ html {
   height: auto;
 }
 
-.h-1 {
-  height: 0.25rem;
-}
-
-.h-19 {
-  height: 4.75rem;
-}
-
-.h-100 {
-  height: 25rem;
-}
-
-.h-40 {
-  height: 10rem;
+.h-screen {
+  height: 100vh;
 }
 
 .max-h-screen {
@@ -1444,26 +1436,14 @@ html {
   width: auto;
 }
 
-.w-full {
-  width: 100%;
-}
-
-.w-1 {
-  width: 0.25rem;
-}
-
-.w-100 {
-  width: 25rem;
-}
-
-.w-96 {
-  width: 24rem;
-}
-
 .w-fit {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+}
+
+.w-full {
+  width: 100%;
 }
 
 .max-w-4xl {
@@ -1522,6 +1502,10 @@ html {
       flex-wrap: wrap;
 }
 
+.place-content-center {
+  place-content: center;
+}
+
 .items-start {
   -webkit-box-align: start;
       -ms-flex-align: start;
@@ -1576,8 +1560,16 @@ html {
   border-bottom-width: calc(1px * var(--tw-divide-y-reverse));
 }
 
+.place-self-center {
+  place-self: center;
+}
+
 .overflow-hidden {
   overflow: hidden;
+}
+
+.break-all {
+  word-break: break-all;
 }
 
 .rounded {
@@ -1788,11 +1780,6 @@ html {
 .object-cover {
   -o-object-fit: cover;
      object-fit: cover;
-}
-
-.object-fill {
-  -o-object-fit: fill;
-     object-fit: fill;
 }
 
 .px-0 {
@@ -2178,6 +2165,10 @@ html {
           transition-duration: 150ms;
 }
 
+#map { 
+  height: 300px;
+}
+
 .hover\:scale-105:hover {
   --tw-scale-x: 1.05;
   --tw-scale-y: 1.05;
@@ -2208,6 +2199,11 @@ html {
 .hover\:bg-yellow:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(244 193 53 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-orange:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(219 121 84 / var(--tw-bg-opacity));
 }
 
 .hover\:text-orangelight:hover {
@@ -2849,3 +2845,4 @@ html {
     width: 100%;
   }
 }
+

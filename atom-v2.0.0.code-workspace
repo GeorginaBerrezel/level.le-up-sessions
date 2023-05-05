@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "atom-v2.0.0",
+			"path": "."
+		},
+		{
+			"name": "LevelleUp-Sessions",
+			"path": "../../Desktop/LevelleUp-Sessions"
+		}
+	],
+	"settings": {}
+}

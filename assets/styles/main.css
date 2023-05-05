@@ -6,3 +6,8 @@ html {
 }
 
 @tailwind utilities;
+
+#map { 
+  height: 300px;
+}
+
