@@ -7,6 +7,10 @@ html {
 
 @tailwind utilities;
 
+.custom-top-negative {
+  top: -4rem; /* Ajustez la valeur selon vos besoins */
+}
+
 #map { 
   height: 300px;
 }
