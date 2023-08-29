@@ -1,5 +1,6 @@
 {
   "name": "atom-html",
+  "source": "index.html",
   "version": "2.0.0",
   "author": "Red Pixel Themes",
   "private": true,
@@ -8,7 +9,8 @@
     "server-reload": "browser-sync start --config './browser-sync-config.js'",
     "develop": "concurrently 'npm:css -- --watch' 'npm:server-reload'",
     "build": "npm run css -- --env 'production'",
-    "format": "npx prettier ./**/*.html"
+    "format": "npx prettier ./**/*.html",
+    "start": "parcel"
   },
   "browserslist": [
     "last 2 versions",
@@ -25,6 +27,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.2",
+    "parcel": "^2.9.3",
     "postcss": "^8.4.7",
     "prettier": "^2.5.1",
     "prettier-plugin-tailwindcss": "^0.1.8",

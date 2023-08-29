@@ -18,11 +18,13 @@
 //   .setHTML('<h3>' + name + '</h3><p>' + description + '</p>')
 //   .addTo(map);
 
+import iconUrl from './../img/levelle-up-curbstone-black.png'
+
 
 let map = L.map('map').setView([44.848856106591185, -0.5591143229314954], 14);
 
 let levelleupIcon = L.icon({
-    iconUrl: './assets/img/levelle-up-curbstone-black.png',
+    iconUrl: iconUrl,
 
     iconSize:     [100, 95], // size of the icon
     iconAnchor:   [22, 94], // point of the icon which will correspond to marker's location
